@@ -18,7 +18,7 @@ header h1 {
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding: 10;
 }
 
 nav ul li {
@@ -37,6 +37,7 @@ nav ul li a:hover {
 
 main {
   padding: 20px;
+  min-height: 80vh;
 }
 
 section {
@@ -44,12 +45,17 @@ section {
   margin: auto;
 }
 
+.content-spacing {
+  height: 100px; /* Extra space before the footer */
+}
+
+
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
