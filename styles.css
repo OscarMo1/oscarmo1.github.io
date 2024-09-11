@@ -71,3 +71,15 @@ footer {
   height: auto;
   border-radius: 50%; /* Optional for a circular image */
 }
+
+.assignment-box {
+  width: 110%; /* Makes the box 80% of the container width */
+  max-width: 1000px; /* Ensures the box doesn't get too wide on large screens */
+  margin: 20px auto; /* Centers the box horizontally */
+  padding: 20px;
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounds the corners slightly */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
