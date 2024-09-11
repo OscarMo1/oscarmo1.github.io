@@ -69,7 +69,7 @@ footer {
 .profile-pic {
   width: 300px;
   height: auto;
-  border-radius: 50%; /* Optional for a circular image */
+  border-radius: 90%; /* Optional for a circular image */
 }
 
 .assignment-box {
