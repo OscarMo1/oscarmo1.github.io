@@ -59,3 +59,15 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 50%; /* Optional for a circular image */
+}
